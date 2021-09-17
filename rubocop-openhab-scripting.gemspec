@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "RuboCop cops for openhab-scripting rules"
   spec.homepage      = "https://github.com/ccutrer/rubocop-openhab-scripting"
   spec.license       = "MIT"
-  spec.required_ruby_version = "~> 2.5.0"
+  spec.required_ruby_version = "~> 2.5"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
