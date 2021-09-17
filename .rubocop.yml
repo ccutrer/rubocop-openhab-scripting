@@ -1,0 +1,20 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.5
+
+Metrics:
+  Enabled: false
+
+Naming/FileName:
+  Exclude:
+    - lib/rubocop-openhab.rb
+RSpec/FilePath:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

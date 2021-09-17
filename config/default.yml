@@ -1,0 +1,8 @@
+OpenHAB:
+  Enabled: true
+  Include:
+    - '**/ruby/personal/**/*.rb'
+
+OpenHAB/StatePredicate:
+  Description: 'When comparing against named states and commands, prefer predicate methods.'
+  Enabled: true
